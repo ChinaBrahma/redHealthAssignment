@@ -24,9 +24,9 @@
     },
     {
       "id": "A4",
-      "performanceScore": 65,
+      "performanceScore": 55,
       "seniorityMonths": 3,
-      "targetAchievedPercent": 45,
+      "targetAchievedPercent": 75,
       "activeClients": 5
     }
   ]

@@ -40,35 +40,39 @@ The allocation engine uses a **weighted scoring system** with the following appr
 npm install inquirer asciichart express yargs
 ```
 
-## Usage
 
-### Basic Usage
+# Sample run commands - CLI (run any one of the following)
+Sample data used for all these commands is input-normal.json
+
+## 1. For Basic Run
 ```bash
-node allocationEngine.js --input input-normal.json --config config.json
+# Test scenarios
+npm test  
+# or
+npm run test-all
 ```
 
-### NPM Scripts
+## 2. For Interactive simulation run this
 ```bash
-# Basic allocation
-npm start
-
-# Test scenarios
-npm test
-npm run test-all
-
-# Chart demonstration
-npm run demo
-
-# Interactive simulation
 npm run simulate
+```
+##  3. To see the chart demonstration run this
+```bash
+npm run demo
+```
 
-# API mode
-npm run api
-
-# Batch processing
+##  4. Batch processing
+```bash
 npm run batch
 npm run batch-with-plugin
 ```
+
+## 5. API mode(currently under progress)
+```bash
+npm run api
+```
+
+
 
 ### Available Modes
 
