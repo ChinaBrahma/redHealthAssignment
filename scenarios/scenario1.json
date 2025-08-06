@@ -1,0 +1,33 @@
+{
+  "siteKitty": 10000,
+  "salesAgents": [
+    {
+      "id": "A1",
+      "performanceScore": 90,
+      "seniorityMonths": 18,
+      "targetAchievedPercent": 85,
+      "activeClients": 12
+    },
+    {
+      "id": "A2",
+      "performanceScore": 70,
+      "seniorityMonths": 6,
+      "targetAchievedPercent": 60,
+      "activeClients": 8
+    },
+    {
+      "id": "A3",
+      "performanceScore": 85,
+      "seniorityMonths": 12,
+      "targetAchievedPercent": 75,
+      "activeClients": 10
+    },
+    {
+      "id": "A4",
+      "performanceScore": 65,
+      "seniorityMonths": 3,
+      "targetAchievedPercent": 45,
+      "activeClients": 5
+    }
+  ]
+} 

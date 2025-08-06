@@ -1,0 +1,34 @@
+{
+  "name": "smart-discount-allocation-engine",
+  "version": "1.0.0",
+  "description": "A data-driven discount allocation system for sales agents",
+  "main": "allocationEngine.js",
+  "scripts": {
+    "start": "node allocationEngine.js",
+    "test": "node allocationEngine.js --input input-normal.json --config config.json",
+    "test-all": "node allocationEngine.js --input input-all-same.json --config config.json && node allocationEngine.js --input input-rounding.json --config config.json",
+    "simulate": "node allocationEngine.js --input input-normal.json --config config.json --simulate",
+    "api": "node allocationEngine.js --apimode --config config.json",
+    "demo": "node demo-charts.js",
+    "batch": "node allocationEngine.js --batch scenarios --config config.json",
+    "batch-with-plugin": "node allocationEngine.js --batch scenarios --config config.json --plugin plugins/myCustomScorer.js"
+  },
+  "keywords": [
+    "allocation",
+    "discount",
+    "sales",
+    "fairness",
+    "automation"
+  ],
+  "author": "Red Health Assignment",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "asciichart": "^1.5.25",
+    "express": "^4.18.2",
+    "yargs": "^17.6.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+} 
