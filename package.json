@@ -8,7 +8,7 @@
     "test": "node allocationEngine.js --input input-normal.json --config config.json",
     "test-all": "node allocationEngine.js --input input-all-same.json --config config.json && node allocationEngine.js --input input-rounding.json --config config.json",
     "simulate": "node allocationEngine.js --input input-normal.json --config config.json --simulate",
-    "api": "node allocationEngine.js --apimode --config config.json",
+    "api": "node allocationEngine.js --apimode --input input-normal.json --config config.json",
     "demo": "node demo-charts.js",
     "batch": "node allocationEngine.js --batch scenarios --config config.json",
     "batch-with-plugin": "node allocationEngine.js --batch scenarios --config config.json --plugin plugins/myCustomScorer.js"

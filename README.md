@@ -67,7 +67,7 @@ npm run batch
 npm run batch-with-plugin
 ```
 
-## 5. API mode(currently under progress)
+## 5. API mode
 ```bash
 npm run api
 ```
