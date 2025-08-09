@@ -20,7 +20,7 @@
     "fairness",
     "automation"
   ],
-  "author": "Red Health Assignment",
+  "author": "China Brahma",
   "license": "MIT",
   "dependencies": {
     "inquirer": "^8.2.4",
